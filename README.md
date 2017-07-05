@@ -1,8 +1,23 @@
 # triangulation-2d.js
 JavaScript code snippet to triangulate the intersection of 3 circles (determinate the epicenter of an earthquake).
 
+
+Usage :
+
+```javascript
+
+var A = [100, 100, 50];
+var B = [160, 120, 36];
+var C = [70, 150, 60];
+
+/* Calculate the source of these three emissions - should be approximatly [130, 140]  */
+
+console.log( triangulation_2d(A, B, C) );
+
+```
   
-  Does the following math:
+  
+Does the following math:
   
 ```python
   
@@ -34,18 +49,3 @@ y2 = (-2 * cX - 2 * bX) / (2 * cy - 2 * bY) * x + (cX**2 + cY**2 + cI**2) / (bX*
 # I need to check it one more time to be sure, but it seems correct to me
 
 ```
-
-Usage :
-
-```javascript
-
-var A = [100, 100, 50];
-var B = [160, 120, 36];
-var C = [70, 150, 60];
-
-/* Calculate the source of these three emissions - should be approximatly [130, 140]  */
-
-console.log( triangulation_2d(A, B, C) );
-
-```
-
