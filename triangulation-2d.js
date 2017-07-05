@@ -1,4 +1,4 @@
-
+/* Author: Corentin Remaud */
 
 /*
 Triangulate the 2d [X, Y] position from the 3 sources [X, Y, I] of emission.
