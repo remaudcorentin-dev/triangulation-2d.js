@@ -2,7 +2,7 @@
 
 /*
 Triangulate the 2d [X, Y] position from the 3 sources [X, Y, I] of emission.
-X & Y are coordonate in a carthesian plan, I$ (the intensity) is the ray of the cirle of emission, in the same scall as x & y.
+X & Y are coordonate in a carthesian plan, I (the intensity) is the ray of the cirle of emission, in the same scall as x & y.
 */
 function triangulation_2d(A, B, C) {
 	/*
