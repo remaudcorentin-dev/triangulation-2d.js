@@ -2,7 +2,7 @@
 JavaScript code snippet to triangulate the intersection of 3 circles (determinate the epicenter of an earthquake).
 
   
-  Basically does the following math:
+  Does the following math:
   
 ```python
   
