@@ -35,3 +35,17 @@ X = ...
 // TO FINISH ;)
 
 ```
+
+Usage :
+
+```javascript
+
+var A = [100, 100, 50];
+var B = [160, 120, 36];
+var C = [70, 150, 60];
+/* The source should be approximatly [130, 140]  */
+
+console.log( triangulation_2d(A, B, C) );
+
+```
+
