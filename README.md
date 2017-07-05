@@ -4,7 +4,7 @@ JavaScript code snippet to triangulate the intersection of 3 circles (determinat
   
   Basically does the following math:
   
-  ```python
+```python
   
   From three circles a(X, Y, I), b(X, Y, I) & c(X, Y, I) where X & Y is the center of the circle in cartesian coordonates and I the radius of the circle (= the intensity of the received signal) :
 
@@ -31,4 +31,4 @@ So X =
 
 // TO FINISH ;)
 
-  ```
+```
