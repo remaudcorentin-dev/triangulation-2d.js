@@ -13,7 +13,7 @@ JavaScript code snippet to triangulate the intersection of 3 circles (determinat
   b: x**2 - 2 * bX * x + bX**2 + y**2 - 2 * bY * y + bY**2 = bI**2
   c: x**2 - 2 * cX * x + cX**2 + y**2 - 2 * cY * y + cY**2 = cI**2
 
-# Then we can solve a-b = b-c to deduce the x & y variables :
+# Then we can solve a-b = b-c :
 
 = a-b
 = x**2 - 2 * aX * x + aX**2 + y**2 - 2 * aY * y + aY**2 - aI**2 - x**2 - 2 * bX * x + bX**2 + y**2 - 2 * bY * y + bY**2 - bI**2
@@ -27,7 +27,7 @@ y1 = (-2 * bX - 2 * aX) / (2 * By - 2 * aY) * x + (bX**2 + bY**2 + bI**2) / (aX*
 # then
 y2 = (-2 * cX - 2 * bX) / (2 * cy - 2 * bY) * x + (cX**2 + cY**2 + cI**2) / (bX**2 + bY**2 + bI**2)
 
-# So
+# So we deduce the final X & Y variables
 (FinalX) = ( (bX**2 + bY**2 + bI**2) / (aX**2 + aY**2 + aI**2) - (cX**2 + cY**2 + cI**2) / (bX**2 + bY**2 + bI**2) ) / ( (-2 * cX - 2 * bX) / (2 * cy - 2 * bY) * x - (-2 * bX - 2 * aX) / (2 * By - 2 * aY) )
 (FinalY) = (-2 * cX - 2 * bX) / (2 * cy - 2 * bY) * (FinalX) + (cX**2 + cY**2 + cI**2) / (bX**2 + bY**2 + bI**2)
 
