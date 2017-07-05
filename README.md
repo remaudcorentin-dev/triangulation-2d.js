@@ -27,7 +27,7 @@ y1 = (-2 * bX - 2 * aX) / (2 * By - 2 * aY) * x + (bX**2 + bY**2 + bI**2) / (aX*
 # then
 y2 = (-2 * cX - 2 * bX) / (2 * cy - 2 * bY) * x + (cX**2 + cY**2 + cI**2) / (bX**2 + bY**2 + bI**2)
 
-# So we deduce the final X & Y variables
+# So we deduce the final X & Y variables :
 (FinalX) = ( (bX**2 + bY**2 + bI**2) / (aX**2 + aY**2 + aI**2) - (cX**2 + cY**2 + cI**2) / (bX**2 + bY**2 + bI**2) ) / ( (-2 * cX - 2 * bX) / (2 * cy - 2 * bY) * x - (-2 * bX - 2 * aX) / (2 * By - 2 * aY) )
 (FinalY) = (-2 * cX - 2 * bX) / (2 * cy - 2 * bY) * (FinalX) + (cX**2 + cY**2 + cI**2) / (bX**2 + bY**2 + bI**2)
 
