@@ -77,12 +77,3 @@ function triangulation_2d(A, B, C) {
 
 	return [X, Y];
 }
-
-
-A = [100, 100, 50];
-B = [160, 120, 36];
-C = [70, 150, 60];
-/* The source should be approximatly [130, 140]  */
-
-console.log( triangulation_2d(A, B, C) );
-
