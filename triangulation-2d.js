@@ -56,7 +56,7 @@ function triangulation_2d(A, B, C) {
 
 	Yab = [
 		( - ( nbXb - nbXa ) ) / ( nbYb - nbYa ),  // X part
-		( nbIb - nbIa ) / ( nbYb - nbYa )		  // N part
+		( nbIb - nbIa ) / ( nbYb - nbYa )	  // N part
 		];
 
 	Ybc = [
