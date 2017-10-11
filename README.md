@@ -6,7 +6,7 @@ Usage :
 
 ```javascript
 
-var A = [100, 100, 50];
+var A = [100, 100, 50];  /* [X, Y, Ray] */
 var B = [160, 120, 36];
 var C = [70, 150, 60];
 
