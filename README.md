@@ -46,6 +46,6 @@ y2 = (-2 * cX - 2 * bX) / (2 * cy - 2 * bY) * x + (cX**2 + cY**2 + cI**2) / (bX*
 (FinalX) = ( (bX**2 + bY**2 + bI**2) / (aX**2 + aY**2 + aI**2) - (cX**2 + cY**2 + cI**2) / (bX**2 + bY**2 + bI**2) ) / ( (-2 * cX - 2 * bX) / (2 * cy - 2 * bY) * x - (-2 * bX - 2 * aX) / (2 * By - 2 * aY) )
 (FinalY) = (-2 * cX - 2 * bX) / (2 * cy - 2 * bY) * (FinalX) + (cX**2 + cY**2 + cI**2) / (bX**2 + bY**2 + bI**2)
 
-# I need to check it one more time to be sure, but it seems correct to me
+# You should check it one more time to be sure, but it seems correct to me
 
 ```
